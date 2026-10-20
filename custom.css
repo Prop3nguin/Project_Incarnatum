@@ -1,0 +1,22 @@
+:root {
+  --font-heading: "Inter", sans-serif;
+}
+
+.site-navbar-cta-button,
+.mobile-nav-cta-button {
+  background-color: #ab3a76ff;
+}
+
+.site-tree-item-self.is-current {
+  color: #ab3a76ff;
+  font-weight: 600;
+}
+
+.toc-item-self[aria-current="true"] {
+  color: #ab3a76ff;
+}
+
+.site-navbar-inner {
+  margin: 0;
+  max-width: none;
+}
