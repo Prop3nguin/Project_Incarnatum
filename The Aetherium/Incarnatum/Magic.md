@@ -4,4 +4,4 @@ description:
 
 # The Magic of Incarnatum
 
-[../assets/signatures.png]
+![Signatures](../assets/Signatures.png)
