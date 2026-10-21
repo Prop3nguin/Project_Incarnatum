@@ -8,7 +8,7 @@ Connectors are adapters that let Acme read from sources and write to destination
 
 ## Available connectors
 
-### Sources
+### Source
 
 | Connector     | Type            | Incremental  | Streaming |
 | ------------- | --------------- | :----------: | :-------: |
