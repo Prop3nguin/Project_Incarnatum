@@ -1,7 +1,5 @@
 :root {
   --font-heading: "Inter", sans-serif;
-  --backdrop: #121212;
-  --FontColor: #e0e0e0;
 }
 
 .site-navbar-cta-button,
@@ -21,9 +19,4 @@
 .site-navbar-inner {
   margin: 0;
   max-width: none;
-}
-
-html {
-  background-color: var(--backdrop);
-  color: var(--FontColor);
 }
