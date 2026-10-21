@@ -20,3 +20,7 @@
   margin: 0;
   max-width: none;
 }
+
+body {
+  background-color: #121212;
+}
