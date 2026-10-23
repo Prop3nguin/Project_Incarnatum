@@ -25,12 +25,12 @@ tags : ["Collection"]
 filters:
     and:
         - file.inFolder("characters")
-        - file.hasTag("Main Character")
+        - tags.contains("Main Character")
 views:
-    - type: gallery
+  - type: cards
     name : "Main Characters"
-    summaries:
-     - property: file.image
-     - property: file.name
-     - property: file.description
+    properties:  
+      - image
+      - name
+      - description
 ```
