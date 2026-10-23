@@ -8,7 +8,7 @@ aliases : []
 type : character
 syntaxMode : mdx
 status : draft
-portrait : "meta/assets/FILENAME"
+image : "[[FILENAME.EXTENTION]]"
 birth :
   place : ""
   year:
@@ -22,11 +22,14 @@ death :
 tags : []
 ---
 
-{frontmatter.portrait && (
-    <img src={frontmatter.portrait} alt={frontmatter.title}/>
-)}
+{/*!
+[[PORTRAIT FILENAME]]
+*/}
 
 {/* Intro paragraph */}
 
-
+# Stats 
+|   -   | Lifespan | Birth Date | Death Date |
+|   -   |:--------:|:----------:|:----------:|
+| Value | {frontmatter.death.year - frontmatter.birth.year}-{frontmatter.death.week - frontmatter.birth.week}-{frontmatter.death.day - frontmatter.birth.day} | - | - |
 
