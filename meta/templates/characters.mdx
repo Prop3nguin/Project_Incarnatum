@@ -4,7 +4,7 @@ aliases : []
 type : character
 syntaxMode : mdx
 status : draft
-portrait : ./meta/assets/Signatures.png
+portrait : "./meta/assets/FILENAME"
 birth :
   place : ""
   year:
@@ -19,8 +19,9 @@ tags : []
 ---
 
 # {frontmatter.title}
-
-<img src={frontmatter.portrait} alt={frontmatter.title}/>
+{frontmatter.portrait && (
+    <img src={frontmatter.portrait} alt={frontmatter.title}/>
+)}
 
 {/* Intro paragraph */}
 
