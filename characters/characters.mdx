@@ -4,23 +4,27 @@ aliases : [Kit, Kituzo, Halden Arcanis]
 type : character
 syntaxMode : mdx
 status : draft
-portrait : "meta/assets/Signatures.png"
+imag : "[[PORTRAIT.PNG]]"
 birth :
   place : "Arranzale"
-  year: 12
-  week: 12
-  day : 12
+  year: 364
+  week: 5
+  day : 3
 death : 
   place : "Arranzale"
-  year: 12
-  week: 12
-  day : 12
-tags : []
+  year: 432
+  week: 9
+  day : 1
+tags : ["Incarnatum", "Main Character"]
 ---
 
-{frontmatter.portrait && (
-    <img src={frontmatter.portrait} alt={frontmatter.title}/>
-)}
+{/*
+![[PORTRAIT.PNG]]
+*/}
 
 {/* Intro paragraph */}
-
+ 
+| Stats | Lifespan | Birth Date | Death Date |
+|:-----:|:--------:|:----------:|:----------:|
+| Value | {frontmatter.death.year - frontmatter.birth.year}-{frontmatter.death.week - frontmatter.birth.week}-{frontmatter.death.day - frontmatter.birth.day} | {frontmatter.birth.year}-{frontmatter.birth.week}-{frontmatter.birth.day} | {frontmatter.death.year}-{frontmatter.death.week}-{frontmatter.death.day} |
+| place | {frontmatter.home} | {frontmatter.birth.place} | {frontmatter.death.place} |
