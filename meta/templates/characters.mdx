@@ -12,11 +12,13 @@ image : "[[FILENAME.EXTENTION]]"
 home : ""
 birth :
   place : ""
+  date: ""
   year:
   week:
   day :
 death :
   place : ""
+  date: ""
   year:
   week:
   day :
@@ -28,8 +30,8 @@ tags : []
 */}
 
 {/* Intro paragraph */}
- 
-| Stats | Lifespan | Birth Date | Death Date |
-|:-----:|:--------:|:----------:|:----------:|
-| Value | {frontmatter.death.year - frontmatter.birth.year}-{frontmatter.death.week - frontmatter.birth.week}-{frontmatter.death.day - frontmatter.birth.day} | {frontmatter.birth.year}-{frontmatter.birth.week}-{frontmatter.birth.day} | {frontmatter.death.year}-{frontmatter.death.week}-{frontmatter.death.day} |
-| place | {frontmatter.home} | {frontmatter.birth.place} | {frontmatter.death.place} |
+
+| Stats | Lifespan                                                | Birth Date (YYYY/WW/D)    | Death Date (YYYY/WW/D)    |
+|:-----:|:-------------------------------------------------------:|:-------------------------:|:-------------------------:|
+| Value | {frontmatter.death.year - frontmatter.birth.year} years | {frontmatter.birth.date}  | {frontmatter.death.date}  |
+| place | {frontmatter.home}                                      | {frontmatter.birth.place} | {frontmatter.death.place} |

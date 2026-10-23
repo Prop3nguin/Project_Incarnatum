@@ -1,20 +1,27 @@
 ---
 title : Kituzo Halden
+description: >
+    5' 11", Average build, long-ish black hair and blue eyes.
+    Kituzo often leaves books strewn about- but he has a system.
+parents : [Halden, Unknown, Unknown]
 aliases : [Kit, Kituzo, Halden Arcanis]
 type : character
 syntaxMode : mdx
 status : draft
-imag : "[[PORTRAIT.PNG]]"
+image : "[[PORTRAIT.PNG]]"
+home : "Arranzale"
 birth :
-  place : "Arranzale"
+  place : "Queensland"
+  date: "364/5/1"
   year: 364
   week: 5
-  day : 3
+  day : 1
 death : 
   place : "Arranzale"
+  date: "432/9/3"
   year: 432
   week: 9
-  day : 1
+  day : 3
 tags : ["Incarnatum", "Main Character"]
 ---
 
@@ -24,7 +31,7 @@ tags : ["Incarnatum", "Main Character"]
 
 {/* Intro paragraph */}
  
-| Stats | Lifespan | Birth Date | Death Date |
-|:-----:|:--------:|:----------:|:----------:|
-| Value | {frontmatter.death.year - frontmatter.birth.year}-{frontmatter.death.week - frontmatter.birth.week}-{frontmatter.death.day - frontmatter.birth.day} | {frontmatter.birth.year}-{frontmatter.birth.week}-{frontmatter.birth.day} | {frontmatter.death.year}-{frontmatter.death.week}-{frontmatter.death.day} |
-| place | {frontmatter.home} | {frontmatter.birth.place} | {frontmatter.death.place} |
+| Stats | Lifespan                                                | Birth Date (YYYY/WW/D)    | Death Date (YYYY/WW/D)    |
+|:-----:|:-------------------------------------------------------:|:-------------------------:|:-------------------------:|
+| Value | {frontmatter.death.year - frontmatter.birth.year} years | {frontmatter.birth.date}  | {frontmatter.death.date}  |
+| place | {frontmatter.home}                                      | {frontmatter.birth.place} | {frontmatter.death.place} |
