@@ -8,7 +8,7 @@ aliases : [Kit, Kituzo, Halden Arcanis]
 type : character
 syntaxMode : mdx
 status : draft
-image : "[[PORTRAIT.PNG]]"
+image : "Signatures.png"
 home : "Arranzale"
 birth :
   place : "Queensland"
@@ -31,7 +31,8 @@ tags : ["Incarnatum", "Main Character"]
 
 {/* Intro paragraph */}
  
-| Stats | Lifespan                                                | Birth Date (YYYY/WW/D)    | Death Date (YYYY/WW/D)    |
-|:-----:|:-------------------------------------------------------:|:-------------------------:|:-------------------------:|
-| Value | {frontmatter.death.year - frontmatter.birth.year} years | {frontmatter.birth.date}  | {frontmatter.death.date}  |
-| place | {frontmatter.home}                                      | {frontmatter.birth.place} | {frontmatter.death.place} |
+| Lifespan                                                | Birth Date (YYYY/WW/D)    | Death Date (YYYY/WW/D)    |
+|:-------------------------------------------------------:|:-------------------------:|:-------------------------:|
+| {frontmatter.death.year - frontmatter.birth.year} years | {frontmatter.birth.date}  | {frontmatter.death.date}  |
+|                                                         | {frontmatter.birth.place} | {frontmatter.death.place} |
+![[{frontmatter.image}]]
