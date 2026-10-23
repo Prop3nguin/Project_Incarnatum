@@ -3,9 +3,7 @@ title : Works
 alieses : [work, works]
 type : index
 syntaxMode : mdx
-tags : []
+tags : ["Collection"]
 ---
 
-# {frontmatter.title}
-
-// add paragraph intro
+<List dir="/works" slots={{ headline: "title", summary: "description", tags: "tags" }} />

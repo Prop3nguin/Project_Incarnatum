@@ -4,7 +4,7 @@ description: Peer into the Wellstone but beware that which beckons you further t
 alieses : [The Wellstone]
 type : index
 syntaxMode : mdx
-tags : []
+tags : ["Collection"]
 ---
 
 ## Begin here
@@ -20,3 +20,17 @@ tags : []
 - [[events/index|Events]]
 - [[eras/index|Eras]]
 - [[stories/index|Stories]]
+
+```base
+filters:
+    and:
+        - file.inFolder("characters")
+        - file.hasTag("Main Character")
+views:
+    - type: gallery
+    name : "Main Characters"
+    summaries:
+     - property: file.image
+     - property: file.name
+     - property: file.description
+```
