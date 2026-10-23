@@ -1,27 +1,15 @@
 {
-  "logo": "👾",
-  "favicon": "👾",
-  "title": "Acme Docs",
+  "logo": "⚶",
+  "favicon": "⚶",
+  "title": "The Aetherium",
   "nav": {
-    "title": "Acme Docs",
+    "title": "The Aetherium",
     "links": [
       {
-        "href": "#",
-        "name": "Docs"
-      },
-      {
-        "href": "#",
-        "name": "Blog"
-      },
-      {
-        "href": "/CHANGELOG",
-        "name": "Changelog"
+        "href": "https://github.com/Prop3nguin/Project_Incarnatum",
+        "name": "Source"
       }
-    ],
-    "cta": {
-      "name": "Sign In",
-      "href": "#"
-    }
+    ]
   },
   "theme": {
     "showModeSwitch": true
@@ -29,19 +17,19 @@
   "footer": {
     "navigation": [
       {
-        "title": "Product",
+        "title": "Author",
         "links": [
           {
-            "href": "#",
-            "name": "Docs"
+            "href": "https://github.com/Prop3nguin",
+            "name": "Github"
           },
           {
-            "href": "#",
-            "name": "Blog"
+            "href": "https://Prop3nguin.github.io",
+            "name": "Portfolio"
           },
           {
-            "href": "#",
-            "name": "Changelog"
+            "href": "https://project-incarnatum-prop3nguin.flowershow.me/README#Aliases",
+            "name": "Aliases"
           }
         ]
       },
@@ -49,11 +37,11 @@
         "title": "Legal",
         "links": [
           {
-            "href": "#",
+            "href": "https://project-incarnatum-prop3nguin.flowershow.me/Terms",
             "name": "Terms"
           },
           {
-            "href": "#",
+            "href": "https://project-incarnatum-prop3nguin.flowershow.me/Privacy",
             "name": "Privacy"
           }
         ]
@@ -63,23 +51,8 @@
   "social": [
     {
       "label": "github",
-      "href": "#",
+      "href": "https://github.com/Prop3nguin",
       "name": "GitHub"
-    },
-    {
-      "label": "x",
-      "href": "#",
-      "name": "X"
-    },
-    {
-      "label": "reddit",
-      "href": "#",
-      "name": "Reddit"
-    },
-    {
-      "label": "discord",
-      "href": "#",
-      "name": "Discord"
     }
   ],
   "showEditLink": true
