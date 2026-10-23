@@ -1,0 +1,42 @@
+---
+title : Place Name
+description: >
+    This is a description of the place,
+    physical features and other details that are needed when
+    there is no portrait.
+aliases : []
+type : Place
+scale: "" # Planet, galaxy, solar system, country, city...
+syntaxMode : mdx
+status : draft
+image : "[[Placeholder.jpg]]"
+Founded :
+  place : "Location"
+  date: "YYYY/WW/D"
+  year: 0
+  week: 0
+  day : 0
+Fell : 
+  place : "Location"
+  date: "YYYY/WW/D"
+  year: 0
+  week: 0
+  day : 0
+tags : []
+---
+
+[Characters](./)
+
+{/*
+![[PORTRAIT FILENAME]]
+*/}
+sometimes a character portrait.
+
+{/* Intro paragraph */}
+A paragraph that introduces the character.
+
+| Lifespan                                                | Birth Date                | Death Date                |
+|:-------------------------------------------------------:|:-------------------------:|:-------------------------:|
+| {frontmatter.death.year - frontmatter.birth.year} years | {frontmatter.birth.date}  | {frontmatter.death.date}  |
+|                                                         | {frontmatter.birth.place} | {frontmatter.death.place} |
+
