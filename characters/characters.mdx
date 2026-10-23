@@ -4,19 +4,23 @@ aliases : []
 type : character
 syntaxMode : mdx
 status : draft
-image : "[[Signature.png]]"
+portrait : "./meta/assets/Signatures.png"
 birth :
-  place : "none"
+  place : "Arranzale"
   year: 12
   week: 12
   day : 12
-death :
-  place : "none"
+death : 
+  place : "Arranzale"
   year: 12
   week: 12
   day : 12
 tags : []
 ---
+
+{frontmatter.portrait && (
+    <img src={frontmatter.portrait} alt={frontmatter.title}/>
+)}
 
 {/* Intro paragraph */}
 
