@@ -25,10 +25,30 @@ The greater Webpage Custom Styling
   padding-right: 0.5rem;
 }
 
+@media (min-width: 1024px) {
+  /* sidebar + content + table of contents */
+  .layout-inner.has-sidebar-and-toc {
+    grid-template-columns: 15vw minmax(0, 1fr) 14rem;
+  }
+
+  /* sidebar + content */
+  .layout-inner.has-sidebar {
+    grid-template-columns: 15vw minmax(0, 1fr);
+  }
+
+  /* content + table of contents (no sidebar) */
+  .layout-inner.has-toc {
+    grid-template-columns: minmax(0, 1fr) 14rem;
+  }
+}
+
   /* The Generated MDX Mainpage Styling */
 .layout-inner-center {
   border: 2px dotted var(--bloodred);
   min-width: 45vw;
+}
+.page-main h1, .page-main h2{
+  text-align: center;
 }
 
   /* The Left Navigation Custom Styling */
