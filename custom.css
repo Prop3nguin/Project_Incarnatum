@@ -29,7 +29,12 @@
   border: 2px dotted var(--bloodred);
 }
 
-.list-component-item-headline-link {
-  color: var(--bloodred);
-  text-shadow: 0 0 5px rgb(155, 155, 155);
+/*
+The list item styling
+*/
+
+.list-component-item {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #333;
 }
