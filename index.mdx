@@ -21,19 +21,6 @@ tags : ["Collection"]
 - [[eras/index|Eras]]
 - [[stories/index|Stories]]
 
-```base
-filters:
-  and:
-    - file.inFolder("characters")
-    - tags.contains("Main Character")
-views:
-  - type: cards
-    name: "Main Characters"
-    order:
-      - title
-      - description
-```
-
 ```list
 from: characters
 view: grid
@@ -41,5 +28,5 @@ where:
   tags: Main Character
 fields:
   date: none
-  meta: [tags]
+  meta: none
 ```
