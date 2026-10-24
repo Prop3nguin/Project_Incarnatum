@@ -21,11 +21,34 @@ tags : ["Collection"]
 - [[eras/index|Eras]]
 - [[stories/index|Stories]]
 
+---
+
+## Main Characters
+
+A collection of all characters considered to be a main character by one or more stories.
+
 ```list
 from: characters
 view: grid
 where:
   tags: Main Character
+fields:
+  date: none
+  media: none
+  meta: [tags]
+```
+
+---
+
+## Cannon Stories
+
+A collection of all stories considered cannon.
+
+```list
+from: stories
+view: list
+where:
+  status: Cannon
 fields:
   date: none
   media: none
