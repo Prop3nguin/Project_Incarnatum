@@ -21,7 +21,7 @@
 The greater Webpage Custom Styling
 */
 .layout-inner{
-  max-width: 100%;
+  max-width: none;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   column-gap: 2rem;
@@ -51,6 +51,9 @@ The greater Webpage Custom Styling
 }
 .page-main h1, .page-main h2{
   text-align: center;
+}
+.page-main p {
+  text-indent: 2rem;
 }
 
   /* The Left Navigation Custom Styling */
