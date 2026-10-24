@@ -17,17 +17,6 @@
 }
 
 .site-navbar-inner {
-  margin: 0;
-  max-width: none;
-}
-
-.MuiCard-root {
-  background-color: var(--color-background) !important;
-  color: var(--color-foreground) !important;
-  border-color: color-mix(in srgb, var(--color-foreground) 20%, transparent) !important;
-}
-
-.internal :hover{
-  color: rgb(80, 0, 0);
-  font-style: italic;
+  margin: 10vw;
+  max-width: 90vw;
 }
