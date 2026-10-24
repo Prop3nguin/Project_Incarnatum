@@ -27,6 +27,6 @@
 
 .layout-inner-left {
   max-width: 15vw;
-  border: 2px solid var(--bloodred);
+  border: 2px dotted var(--bloodred);
   border-radius: 5px;
 }
