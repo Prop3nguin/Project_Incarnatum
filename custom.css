@@ -21,14 +21,16 @@
 The greater Webpage Custom Styling
 */
 .layout-inner{
+  max-width: 100%;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+  column-gap: 2rem;
 }
 
 @media (min-width: 1024px) {
   /* sidebar + content + table of contents */
   .layout-inner.has-sidebar-and-toc {
-    grid-template-columns: 15vw minmax(0, 1fr) 14rem;
+    grid-template-columns: 15vw minmax(0, 1fr) 10vw;
   }
 
   /* sidebar + content */
@@ -38,7 +40,7 @@ The greater Webpage Custom Styling
 
   /* content + table of contents (no sidebar) */
   .layout-inner.has-toc {
-    grid-template-columns: minmax(0, 1fr) 14rem;
+    grid-template-columns: minmax(0, 1fr) 10vw;
   }
 }
 
@@ -54,13 +56,13 @@ The greater Webpage Custom Styling
   /* The Left Navigation Custom Styling */
 .layout-inner-left {
   border: 2px dotted var(--bloodred);
-  max-width: 15vw;
+  max-width: none;
 }
 
   /* The Right Topical Summary Styling */
 .layout-inner-right {
   border: 2px dotted var(--bloodred);
-  max-width: 10vw;
+  max-width: none;
 }
 
   /* The Navigation Bar Custom Styling */
