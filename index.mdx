@@ -23,14 +23,16 @@ tags : ["Collection"]
 
 ```base
 filters:
-    and:
-        - file.inFolder("characters")
-        - tags.contains("Main Character")
+  and:
+    - file.inFolder("characters")
+    - tags.contains("Main Character")
 views:
   - type: cards
-    name : "Main Characters"
-    properties:  
-      - image
-      - title
-      - description
+    name: "Main Characters"
+    image: note.image
+    imageAspectRatio: 1
+    imageFit: cover
+    order:
+      - note.title
+      - note.description
 ```
