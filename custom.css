@@ -28,3 +28,8 @@
 .layout-inner-left {
   border: 2px dotted var(--bloodred);
 }
+
+.list-component-item-headline-link {
+  color: var(--bloodred);
+  text-shadow: 5px 5px rgb(255, 60, 0);
+}
