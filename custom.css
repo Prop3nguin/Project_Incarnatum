@@ -26,3 +26,8 @@
   color: var(--color-foreground) !important;
   border-color: color-mix(in srgb, var(--color-foreground) 20%, transparent) !important;
 }
+
+.internal :hover{
+  color: rgb(80, 0, 0);
+  font-style: italic;
+}
