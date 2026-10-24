@@ -20,3 +20,9 @@
   margin: 0;
   max-width: none;
 }
+
+.MuiCard-root {
+  background-color: var(--color-background) !important;
+  color: var(--color-foreground) !important;
+  border-color: color-mix(in srgb, var(--color-foreground) 20%, transparent) !important;
+}
