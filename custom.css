@@ -20,20 +20,27 @@
 /*
 The greater Webpage Custom Styling
 */
+.layout-inner{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
 
   /* The Generated MDX Mainpage Styling */
 .layout-inner-center {
   border: 2px dotted var(--bloodred);
+  max-width: 50vw;
 }
 
   /* The Left Navigation Custom Styling */
 .layout-inner-left {
   border: 2px dotted var(--bloodred);
+  max-width: 2rem;
 }
 
   /* The Right Topical Summary Styling */
 .layout-inner-right {
   border: 2px dotted var(--bloodred);
+  max-width: 2rem;
 }
 
   /* The Navigation Bar Custom Styling */
@@ -41,8 +48,8 @@ The greater Webpage Custom Styling
   margin: 0;
   max-width: none;
   border-bottom: 2px solid var(--bloodred);
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 7.5px;
+  border-bottom-right-radius: 7.5px;
 }
 
 
@@ -53,7 +60,7 @@ The list item styling
 */
 .list-component-item {
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 7.5px;
   background-color: #1d1d1d;
 }
 .list-component-item:hover {
