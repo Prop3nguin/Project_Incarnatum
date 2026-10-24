@@ -21,10 +21,12 @@
   margin: 0;
   max-width: none;
   border-bottom: 2px solid var(--bloodred);
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .layout-inner-left {
-  max-width: 5vw;
+  max-width: 15vw;
+  border: 2px solid var(--bloodred);
+  border-radius: 5px;
 }
