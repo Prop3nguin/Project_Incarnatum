@@ -31,13 +31,13 @@ The greater Webpage Custom Styling
 @media (min-width: 1024px) {
   /* sidebar + content + table of contents */
   .layout-inner.has-sidebar-and-toc {
-    grid-template-columns: 9rem minmax(0, 1fr) 9rem;
+    grid-template-columns: 12rem minmax(0, 1fr) 9rem;
     max-width: none;
   }
 
   /* sidebar + content */
   .layout-inner.has-sidebar {
-    grid-template-columns: 9rem minmax(0, 1fr);
+    grid-template-columns: 12rem minmax(0, 1fr);
     max-width: none;
   }
 
