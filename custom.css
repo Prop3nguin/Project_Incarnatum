@@ -17,6 +17,26 @@
   color: #ab3a76ff;
 }
 
+/*
+The greater Webpage Custom Styling
+*/
+
+  /* The Generated MDX Mainpage Styling */
+.layout-inner-center {
+  border: 2px dotted var(--bloodred);
+}
+
+  /* The Left Navigation Custom Styling */
+.layout-inner-left {
+  border: 2px dotted var(--bloodred);
+}
+
+  /* The Right Topical Summary Styling */
+.layout-inner-right {
+  border: 2px dotted var(--bloodred);
+}
+
+  /* The Navigation Bar Custom Styling */
 .site-navbar-inner {
   margin: 0;
   max-width: none;
@@ -25,16 +45,17 @@
   border-bottom-right-radius: 5px;
 }
 
-.layout-inner-left {
-  border: 2px dotted var(--bloodred);
-}
+
+
 
 /*
 The list item styling
 */
-
 .list-component-item {
   padding: 10px;
   border-radius: 5px;
-  background-color: #333;
+  background-color: #1d1d1d;
+}
+.list-component-item:hover {
+  background-color: #111;
 }
