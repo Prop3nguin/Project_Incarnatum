@@ -28,19 +28,19 @@ The greater Webpage Custom Styling
   /* The Generated MDX Mainpage Styling */
 .layout-inner-center {
   border: 2px dotted var(--bloodred);
-  max-width: 50vw;
+  min-width: 45vw;
 }
 
   /* The Left Navigation Custom Styling */
 .layout-inner-left {
   border: 2px dotted var(--bloodred);
-  max-width: 2rem;
+  max-width: 15vw;
 }
 
   /* The Right Topical Summary Styling */
 .layout-inner-right {
   border: 2px dotted var(--bloodred);
-  max-width: 2rem;
+  max-width: 10vw;
 }
 
   /* The Navigation Bar Custom Styling */
