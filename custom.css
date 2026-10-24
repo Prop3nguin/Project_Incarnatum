@@ -1,5 +1,6 @@
 :root {
   --font-heading: "Lora";
+  --bloodred: rgb(75, 0, 0);
 }
 
 .site-navbar-cta-button,
@@ -17,6 +18,7 @@
 }
 
 .site-navbar-inner {
-  margin: 10vw;
-  max-width: 90vw;
+  margin: 0;
+  max-width: none;
+  border-bottom: 2px solid var(--bloodred);
 }
