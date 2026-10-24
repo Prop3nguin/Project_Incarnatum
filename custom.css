@@ -89,10 +89,14 @@ The list item styling
   border-radius: 7.5px;
   background-color: #1d1d1d;
 }
+.list-component-item-headline{
+  text-align: center;
+}
 .list-component-item:hover {
   background-color: #111;
 }
 /* list tag display color change */
 .list-component-item-meta-value {
   color: rgb(255, 112, 112);
+  text-align: center;
 }
