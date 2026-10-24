@@ -31,5 +31,5 @@
 
 .list-component-item-headline-link {
   color: var(--bloodred);
-  text-shadow: 5px 5px rgb(255, 60, 0);
+  text-shadow: 0 0 5px rgb(155, 155, 155);
 }
