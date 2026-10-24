@@ -21,7 +21,6 @@
 The greater Webpage Custom Styling
 */
 .layout-inner{
-  max-width: none;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   column-gap: 2rem;
@@ -32,17 +31,20 @@ The greater Webpage Custom Styling
 @media (min-width: 1024px) {
   /* sidebar + content + table of contents */
   .layout-inner.has-sidebar-and-toc {
-    grid-template-columns: 18rem minmax(0, 1fr) 12rem;
+    grid-template-columns: 9rem minmax(0, 1fr) 9rem;
+    max-width: none;
   }
 
   /* sidebar + content */
   .layout-inner.has-sidebar {
-    grid-template-columns: 18rem minmax(0, 1fr);
+    grid-template-columns: 9rem minmax(0, 1fr);
+    max-width: none;
   }
 
   /* content + table of contents (no sidebar) */
   .layout-inner.has-toc {
-    grid-template-columns: minmax(0, 1fr) 12rem;
+    grid-template-columns: minmax(0, 1fr) 9rem;
+    max-width: none;
   }
 }
 
